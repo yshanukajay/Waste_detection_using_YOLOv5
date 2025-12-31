@@ -1,0 +1,2 @@
+# Waste_detection_using_YOLOv5
+Waste_detection_using_YOLOv5
