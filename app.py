@@ -1,10 +1,4 @@
-from wasteDetection.logger import logging
-from wasteDetection.exception import AppException
-import sys
+from wasteDetection.pipeline.training_pipeline import TrainPipeline
 
-
-try:
-    result = 10 / 0
-except Exception as e:
-    logging.info("An exception occurred")
-    raise AppException(e, sys) 
+obj = TrainPipeline()
+obj.run_pipeline()
