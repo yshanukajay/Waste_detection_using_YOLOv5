@@ -209,3 +209,5 @@ __marimo__/
 
 annotatedData/
 artifacts/
+train/
+valid/
